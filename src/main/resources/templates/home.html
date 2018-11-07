@@ -20,17 +20,17 @@
         			Ubah Password
         		</div>
         		<div class="card-body">
-        			<form th:action="@{/user/addUser}" method="post">
+        			<form th:action="@{/user/updatePassword}" method="post">
         				<div class="row form-group">
-        					<label class="col-sm-4">User Name</label>
+        					<label class="col-sm-4">Password Lama : </label>
         					<input class="col-sm-8 form-control input-sm" type="text" name="username"/>
         				</div>
         				<div class="row form-group">
-        					<label class="col-sm-4">Password : </label>
+        					<label class="col-sm-4">Password Baru : </label>
         					<input class="col-sm-8 form-control input-sm" type="password" name="password"/>
         				</div>
         				<div class="row form-group">
-        					<label class="col-sm-4">Role : </label>
+        					<label class="col-sm-4">Konfirmasi Password Baru : </label>
         					<input class="col-sm-8 form-control input-sm" type="text" name="role"/>
         				</div>
         				<div>
